@@ -1,0 +1,33 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi"],
+    "responses": ["oi","como vai"],
+    "context": [""]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["ate breve","falou"],
+    "context": [""]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?"],
+    "responses": ["no dia 25"],
+    "context": [""]
+  },
+  { "tag": "introducao",
+    "patterns":["O que e iniciacao cientifica?","O que e este programa?"],
+    "responses": ["O Programa de Iniciação Científica visa introduzir os alunos de graduação na metodologia científica aplicada a projetos de pesquisa científica e tecnológica."],
+    "context": [""]
+  },
+  { "tag": "quem_participa",
+    "patterns":["Quem pode fazer iniciacao cientifica?","Quem pode participar?"],
+    "responses": ["Este Programa destina-se a alunos com bom rendimento acadêmico que buscam complementar sua formação através da execução de projetos de pesquisa, elaboração de relatórios e divulgação dos seus resultados em eventos de pesquisas científicas e de investigação tecnológica"],
+    "context": [""]
+  },
+  { "tag": "como_participa",
+    "patterns":["O que e iniciacao cientifica?","O que e este programa?"],
+    "responses": ["O aluno deve procurar um professor do departamento, com disponibilidade para orientação e verificar as vagas disponíveis para projetos de iniciação. Tendo sido selecionado um aluno, o professor deve então elaborar uma proposta de projeto individual, dentro dos moldes exigidos pela Comissão de Iniciação Científica e encaminhá-la à Coordenação. O aluno não poderá ter nenhuma dependência e o tempo de dedicação para a realização do projeto é de no mínimo 16 horas semanais. A Fundação Educacional Inaciana Pe. Sabóia de Medeiros oferece bolsas de iniciação científica aos melhores alunos, pelo prazo de até um ano."],
+    "context": [""]
+  }
+]
+}
